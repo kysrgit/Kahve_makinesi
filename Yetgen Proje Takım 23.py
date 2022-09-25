@@ -68,7 +68,7 @@ class otomat():
                     
                     cevap= input("Kahveniz hazır...\nYanında Kurabiye İster Misiniz ? (Evet/Hayır): ")
                     print("\nKurabiye: 20TL")
-                    if cevap=="Evet":
+                    if cevap=="evet":
                         while(True):
                             kacTane= int(input("Kaç adet istersiniz: "))
                             if kacTane>0:
@@ -83,7 +83,7 @@ class otomat():
                                     break
                             else:
                                 print("1 adet ve üstü seçiniz")
-                    elif cevap=="Hayır":
+                    elif cevap=="hayır":
                         print("Afiyet Olsun...")
 
     def fiyat_guncelleme(self):
